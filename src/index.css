@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Color tokens: change these three to recolor the app */
+:root{
+  --bg:#ffffff;
+  --text:#111111;
+  --accent:#f4f633;
+}
+
+html,body,#root{height:100%}
+body{font-family:ui-monospace, SFMono-Regular, Menlo, monospace; background:var(--bg); color:var(--text);}
+
+.nb-border{ @apply border-2 border-black; }
+.nb-card{ @apply border-2 border-black bg-white; }
+.nb-btn{ @apply border-2 border-black px-3 py-2 font-bold; background:var(--accent); }
+.nb-input{ @apply border-2 border-black px-3 py-2 bg-white w-full; }
+.container{ @apply max-w-5xl mx-auto px-4; }
