@@ -18,7 +18,7 @@ export default function App() {
           <div className="flex items-center gap-4 justify-self-center">
             {/* GitHub */}
             <a
-              href="https://github.com/YOUR_USERNAME/YOUR_REPO"
+              href="https://github.com/manojadh57/Movie-Finder.git"
               target="_blank"
               rel="noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full nb-border bg-black hover:bg-gray-800 transition"
@@ -46,7 +46,7 @@ export default function App() {
 
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/in/YOUR_LINKEDIN/"
+              href="https://www.linkedin.com/in/manojadh57/"
               target="_blank"
               rel="noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full nb-border bg-[#0A66C2] hover:bg-[#004182] transition"
